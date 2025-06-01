@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Load data
-df_google = pd.read_csv("data/googleplaystore.csv")
+df_google = pd.read_csv("../file/googleplay/googleplaystore_cleaned.csv")
 
 
 baris1 = "Rating"
