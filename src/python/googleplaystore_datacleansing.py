@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Muat dataset
-df = pd.read_csv('../../data/googleplay/googleplaystore.csv')
+df = pd.read_csv('../file/googleplay/googleplaystore.csv')
 
 print("--- INFORMASI DATA SEBELUM CLEANSING ---")
 print("Informasi Umum Dataset:")
@@ -118,4 +118,4 @@ print(df.describe(include='all'))
 print("\n5 Baris Pertama Data GooglePlayStore.csv Setelah Cleansing:")
 print(df.head())
 
-df.to_csv('../../data/googleplay/googleplaystore_cleaned.csv', index=False)
+df.to_csv('../file/googleplay/googleplaystore_cleaned.csv', index=False)

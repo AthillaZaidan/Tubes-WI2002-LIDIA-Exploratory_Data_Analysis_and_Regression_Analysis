@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Muat dataset
-df_games = pd.read_csv('../../data/games/games.csv')
+df_games = pd.read_csv('../file/games/games.csv')
 
 print("--- INFORMASI DATA GAMES.CSV SEBELUM CLEANSING ---")
 print("Informasi Umum Dataset Games.csv:")
@@ -91,4 +91,4 @@ print(df_games.describe(include='all'))
 print("\n5 Baris Pertama Data Games.csv Setelah Cleansing:")
 print(df_games.head())
 
-df_games.to_csv('../../data/games/games_cleaned.csv', index=False)
+df_games.to_csv('../file/games/games_cleaned.csv', index=False)
