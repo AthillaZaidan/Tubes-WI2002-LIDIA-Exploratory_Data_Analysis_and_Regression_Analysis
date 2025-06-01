@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("data/googleplaystore_cleaned.csv")
+df = pd.read_csv("../file/googleplay/googleplaystore_cleaned.csv")
 
 df["Rating"] = pd.to_numeric(df["Rating"], errors="coerce")
 df["Reviews"] = pd.to_numeric(df["Reviews"], errors="coerce")
